@@ -1,0 +1,13 @@
+.product {
+    &__list-desc{
+        padding-left: calc(10px + (20 - 20) * ((100vw - 320px) / (1920 - 320)));
+        padding-right: calc(10px + (20 - 20) * ((100vw - 320px) / (1920 - 320)));
+        padding-top: calc(10px + (30 - 20) * ((100vw - 320px) / (1920 - 320)));
+        padding-bottom: 30px
+    }
+
+    &__image {
+        max-width: 300px;
+        width: 100%;
+    }
+}
